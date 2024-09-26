@@ -1,0 +1,37 @@
+// /*ABSTRACTS */
+// @import "./abstracts/variables";
+
+/*BASE*/
+@import "./base/bootstrap_min";
+@import "./base/normalize";
+// @import "./base/typography.scss"; = REGLAS TIPOGRAFICAS
+
+// /*COMPONENTS*/
+@import "./components/buttons";
+// @import "./components/dropdown";
+// @import "./components/parrallax";
+// @import "./components/table";
+// @import "./components/carousel";
+@import "./components/title";
+@import "./components/cards";
+@import "./components/floatingcard";
+@import "./components/redesbotones";
+@import "./components/scroll";
+@import "./components/slidercard";
+
+/*LAYOUT*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/navoculto";
+// @import "./layout/forms";
+// @import "./layout/navigation";
+// @import "./layout/grid";
+// @import "./layout/sidebar";
+
+/*PAGES*/
+@import "./pages/index";
+@import "./pages/section1"; //info
+@import "./pages/section2"; //desarrollo
+@import "./pages/section3"; //marketing
+@import "./pages/section4"; //diseño
+@import "./pages/section5"; //contacto
