@@ -1,163 +1,320 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Esta es una página de Marketing digital" />
+    <meta name="keywords"
+        content="desarrollo, marketing, marketing digital, e-commerce, inbound marketing, community manager, publicidad, redes sociales, growth marketing, ventas online, proyectos de negocio, medicion kpi, objetivos smart, design" />
+
     <title>Community Manager</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <!--letra para el titulo y subtitulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet" />
+    <!--link para animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--link para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <!--<h1>Community Manager</h1>-->
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
         <h1>Community Manager</h1>
     </header>
-    
+
     <main>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__nosotros--1">
-                        <h2>Sobre nosotros</h2>
-                        <h3>Expertos en Redes Sociales</h3>
-                        <p>Manejamos comunidades en línea y desarrollamos estrategias efectivas en las principales plataformas.</p>
-                        <h3>Apasionados por el Marketing</h3>
-                        <p>Me mantengo al día con las últimas tendencias y herramientas para ayudar a mi clientela a destacar en el mundo digital.</p>
-                        <h3>Enfocados en Resultados</h3>
-                        <p>Medimos y analizamos el desempeño de cada campaña para garantizar un retorno de inversión óptimo.</p>
-                    </section>
+        <div class="container__nosotros" id="nosotros">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__nosotros--1" >
+                            <h2>Sobre nosotros</h2>
+                            <div class="container__nosotros--1--box" data-aos="fade-down" data-aos-duration="1500">
+                                <h3>Expertos en Redes Sociales</h3>
+                                <p>
+                                    Manejamos comunidades en línea y desarrollamos estrategias
+                                    efectivas en las principales plataformas.
+                                </p>
+                            </div>
+                            <div class="container__nosotros--1--box" data-aos="fade-down" data-aos-duration="1500">
+                                <h3>Apasionados por el Marketing</h3>
+                                <p>
+                                    Me mantengo al día con las últimas tendencias y herramientas
+                                    para ayudar a mi clientela a destacar en el mundo digital.
+                                </p>
+                            </div>
+                            <div class="container__nosotros--1--box" data-aos="fade-down" data-aos-duration="1500">
+                                <h3>Enfocados en Resultados</h3>
+                                <br />
+                                <p>
+                                    Medimos y analizamos el desempeño de cada campaña para
+                                    garantizar un retorno de inversión óptimo.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__servicios--1">
-                        <h2>Servicios</h2>
-                        <h3>Plan Básico</h3>
-                        <p>Asesoría personalizada, campañas publicitarias y medición de resultados.</p>
-                        <h3>Plan Premium</h3>
-                        <p>Todo el Plan Básico, más gestión de redes sociales, calendario de contenidos y copywriting.</p>
-                        <h3>Plan Golden</h3>
-                        <p>Todo lo del plan Medium, más marketing de contenidos y creación de portafolio.</p>
-                    </section>
+        <div class="container__servicios" id="servicios">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__servicios--1">
+                            <h2>Servicios</h2>
+                            <div class="container__servicios--1--box" data-aos="fade-up">
+                                <h3>Plan Básico</h3>
+                                <p>
+                                    Asesoría personalizada, campañas publicitarias y medición de
+                                    resultados.
+                                </p>
+                            </div>
+                            <div class="container__servicios--1--box" data-aos="fade-up">
+                                <h3>Plan Premium</h3>
+                                <p>
+                                    Todo el Plan Básico, más gestión de redes sociales,
+                                    calendario de contenidos y copywriting.
+                                </p>
+                            </div>
+                            <div class="container__servicios--1--box" data-aos="fade-up">
+                                <h3>Plan Golden</h3>
+                                <p>
+                                    Todo lo del plan Medium, más marketing de contenidos y
+                                    creación de portafolio.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__basico--1">
-                        <h2>Plan Básico</h2>
-                        <h3>Asesoría personalizada</h3>
-                        <p>Te ayudamos a definir tus objetivos y estrategia de marketing digital.</p>
-                        <h3>Campañas publicitarias</h3>
-                        <p>Diseñamos y ejecutamos campañas efectivas en redes sociales.</p>
-                        <h3>Medición de resultados</h3>
-                        <p>Analizamos el desempeño de las campañas y optimizamos continuamente.</p>
-                    </section>
+        <div class="container__basico">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__basico--1">
+                            <h2>Plan Básico</h2>
+                            <div class="container__basico--1--box" data-aos="fade-right">
+                                <h3>Asesoría personalizada</h3>
+                                <p>
+                                    Te ayudamos a definir tus objetivos y estrategia de
+                                    marketing digital.
+                                </p>
+                                <br />
+                            </div>
+                            <div class="container__basico--1--box" data-aos="fade-right">
+                                <h3>Campañas publicitarias</h3>
+                                <p>
+                                    Diseñamos y ejecutamos campañas efectivas en redes sociales.
+                                </p>
+                                <br />
+                            </div>
+                            <div class="container__basico--1--box" data-aos="fade-right">
+                                <h3>Medición de resultados</h3>
+                                <p>
+                                    Analizamos el desempeño de las campañas y optimizamos
+                                    continuamente.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__premium--1">
-                        <h2>Plan Premium</h2>
-                        <h3>+Beneficios al Plan Básico</h3>
-                        <p>Obtén todos los beneficios del Plan Básico más beneficios adicionales.</p>
-                        <h3>+Gestión de Redes Sociales</h3>
-                        <p>Gestionamos de forma integral tus redes sociales.</p>
-                    </section>
+        <div class="container__premium">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__premium--1">
+                            <h2>Plan Premium</h2>
+                            <div class="container__premium--1--box" data-aos="fade-left">
+                                <h3>+Beneficios al Plan Básico</h3>
+                                <p>
+                                    Obtén todos los beneficios del Plan Básico más beneficios
+                                    adicionales.
+                                </p>
+                            </div>
+                            <div class="container__premium--1--box" data-aos="fade-left">
+                                <h3>+Gestión de Redes Sociales</h3>
+                                <p>Gestionamos de forma integral tus redes sociales.</p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <div class="row"> 
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__premium--2">
-                        <h3>+Calendario de Contenidos</h3>
-                        <p>Planificamos y generamos contenido relevante y atractivo para tu audiencia.</p>
-                        <h3>+Copywriting</h3>
-                        <p>Nos encargaremos de toda la redacción, asegurando que tu mensaje se transmita de forma clara, convincente y atractiva, garantizando un tono de voz unificado y persuasivo.</p>
-                    </section>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__premium--1">
+                            <div class="container__premium--1--box" data-aos="fade-left">
+                                <h3>+Calendario de Contenidos</h3>
+                                <p>
+                                    Planificamos y generamos contenido relevante y atractivo
+                                    para tu audiencia.
+                                </p>
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                            <div class="container__premium--1--box" data-aos="fade-left">
+                                <h3>+Copywriting</h3>
+                                <p>
+                                    Nos encargaremos de toda la redacción, asegurando que tu
+                                    mensaje se transmita de forma clara, convincente y
+                                    atractiva, garantizando un tono de voz unificado y
+                                    persuasivo.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid"> 
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__Golden--1">
-                        <h2>Plan Golden</h2>
-                        <h3>+Beneficios a los planes Básico y Premium</h3>
-                        <p>Obtén todos los beneficios del Plan Básico y Plan Premium más beneficios adicionales.</p>
-                        <h3>+Creación de Portafolio</h3>
-                        <p>Desarrollamos un portafolio digital atractivo y profesional que resalta tu identidad como marca o empresa.</p>
-                    </section>
+        <div class="container__golden">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__golden--1">
+                            <h2>Plan Golden</h2>
+                            <div class="container__golden--1--box" data-aos="flip-left">
+                                <h3>+Beneficios a los planes Básico y Premium</h3>
+                                <p>
+                                    Obtén todos los beneficios del Plan Básico y Plan Premium
+                                    más beneficios adicionales.
+                                </p>
+                            </div>
+                            <div class="container__golden--1--box" data-aos="flip-left">
+                                <h3>+Creación de Portafolio</h3>
+                                <p>
+                                    Desarrollamos un portafolio digital atractivo y profesional
+                                    que resalta tu identidad como marca o empresa.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
-            <div class="row"> 
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__Golden--2">
-                        <h3>+Marketing de Contenidos</h3>
-                        <p>Generamos contenido de alto valor que conecta con tu audiencia objetivo y los impulsa a interactuar con tu marca, aumentando tu visibilidad y generando más oportunidades de negocio.</p>
-                        <h3>+Branding/Rebranding</h3>
-                        <p>Diseñamos y personalizamos tu identidad de marca para que refleje con precisión tu marca o empresa, tus valores y tu propuesta de valor única.</p>
-                    </section>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__golden--1">
+                            <div class="container__golden--1--box" data-aos="flip-left">
+                                <h3>+Marketing de Contenidos</h3>
+                                <p>
+                                    Generamos contenido de alto valor que conecta con tu
+                                    audiencia objetivo y los impulsa a interactuar con tu marca,
+                                    aumentando tu visibilidad y generando más oportunidades de
+                                    negocio.
+                                </p>
+                            </div>
+                            <div class="container__golden--1--box" data-aos="flip-left">
+                                <h3>+Branding/Rebranding</h3>
+                                <p>
+                                    Diseñamos y personalizamos tu identidad de marca para que
+                                    refleje con precisión tu marca o empresa, tus valores y tu
+                                    propuesta de valor única.
+                                </p>
+                                <br />
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid"> 
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__portafolio--1">
-                        <h2>Portafolio</h2>
-                        <i></i>
-                        <h3>Redes Sociales</h3>
-                        <p>Estrategias y contenidos cautivadores en tus plataformas.</p>
-                        <i></i>
-                        <h3>Publicidad</h3>
-                        <p>Campañas publicitarias efectivas y con un alto retorno de inversión.</p>
-                        <i></i>
-                        <h3>Sitios Web</h3>
-                        <p>Desarrollo de sitio web básico con ayuda de la IA.</p>
-                        <h3>Branding</h3>
-                        <p>Creación de identidad de marca y materiales de presentación.</p>
-                    </section>
+        <div class="container__portafolio" id="portafolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__portafolio--1">
+                            <h2>Portafolio</h2>
+                            <div class="container__portafolio--1--box" data-aos="zoom-in">
+                                <i class="fa-solid fa-person"></i>
+                                <h3>Redes Sociales</h3>
+                                <p>
+                                    Estrategias y contenidos cautivadores en tus plataformas.
+                                </p>
+                            </div>
+                            <div class="container__portafolio--1--box" data-aos="zoom-in">
+                                <i class="fa-solid fa-circle-up"></i>
+                                <h3>Publicidad</h3>
+                                <p>
+                                    Campañas publicitarias efectivas y con un alto retorno de
+                                    inversión.
+                                </p>
+                            </div>
+                            <div class="container__portafolio--1--box" data-aos="zoom-in">
+                                <i class="fa-solid fa-laptop"></i>
+                                <h3>Sitios Web</h3>
+                                <p>Desarrollo de sitio web básico con ayuda de la IA.</p>
+                            </div>
+                            <div class="container__portafolio--1--box" data-aos="zoom-in">
+                                <i class="fa-solid fa-file-contract"></i>
+                                <h3>Branding</h3>
+                                <p>
+                                    Creación de identidad de marca y materiales de presentación.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <aside> 
-        <div class="container-fluid"> 
-            <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12">
-                    <section class="container__contacto--1">
-                        <h2>Contacto</h2>
-                        <h3>Hablemos sobre tu proyecto</h3>
-                        <p>Si necesitas ayuda con tu estrategia de marketing digital, no dudes en comunicarte con nosotros. Estaremos encantados de escuchar más sobre tus objetivos, tu público objetivo y tus desafíos actuales. Juntos, podremos diseñar un plan de acción personalizado que impulse el crecimiento de tu negocio de manera efectiva a través de soluciones digitales innovadoras.</p>
-                        <button>Contáctanos</button>
-                    </section>
+    <aside>
+        <div class="container__contacto" id="contacto"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <section class="container__contacto--1">
+                            <h2>Contacto</h2>
+                            <div class="container__contacto--1--box" data-aos="zoom-out"> 
+                                <h3>Hablemos sobre tu proyecto</h3>
+                                <p>
+                                    Si necesitas ayuda con tu estrategia de marketing digital, no
+                                    dudes en comunicarte con nosotros. Estaremos encantados de
+                                    escuchar más sobre tus objetivos, tu público objetivo y tus
+                                    desafíos actuales. Juntos, podremos diseñar un plan de acción
+                                    personalizado que impulse el crecimiento de tu negocio de manera
+                                    efectiva a través de soluciones digitales innovadoras.
+                                </p>
+                            </div>
+                            <div class="container__contacto--1--boton" class="button"> 
+                                <a href="mailto:yanina.martone@gmail.com"><button>Contáctanos</button></a>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
     </aside>
 
     <footer>
-        <p>&copy; 2024 Community Manager. Todos los derechos reservados.</p>
-        <p><a href="mailto:contacto@communitymanager.com">contacto@communitymanager.com</a></p>
-
+        <p>&copy; 2024 Wish. Todos los derechos reservados.</p>
+        
         <div class="container__social--1">
-            <i><img src="./assets/icons/facebook.png" alt=""></i>
-            <i><img src="./assets/icons/instagram.png" alt=""></i>
-            <i><img src="./assets/icons/alerta-de-correo-electronico(1).png" alt=""></i>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
+
+    <!--Enlase a animaciones aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

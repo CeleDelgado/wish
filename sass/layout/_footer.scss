@@ -1,0 +1,54 @@
+//***********INDEX: vista mobile***************
+
+.container__social--1 {
+    color: rgba(255, 117, 211, 1);
+    font-size: 30px;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+    //text-align: center;
+    //align-items: center;
+    //justify-content: center;
+    //margin: 1rem 10rem 3rem 10rem;
+    list-style: none;
+
+    .fa-facebook a:active i {
+        color: aqua;
+    }
+    .fa-instagram a:active i {
+        color: rgb(255, 0, 255);
+    }
+}
+
+
+/*****Vista Tablet*****/
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@include tablet {
+    .container__social--1 {
+        .fa-facebook:hover i {
+            color: aqua;
+        }
+        .fa-instagram:hover i {
+            color: rgb(255, 0, 255);
+        }
+    }
+    
+
+}
+
+
+/*****Vista mobile*****/
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@include desktop {
+    
+}

@@ -7,22 +7,27 @@
 // @import "./base/typography.scss"; = REGLAS TIPOGRAFICAS
 
 // /*COMPONENTS*/
-@import "./components/buttons";
+@import "./components/containerservicios";
+@import "./components/containerbasico";
+@import "./components/containerpremium";
+@import "./components/containergolden";
+@import "./components/containerportafolio"; 
+@import "./components/containercontacto"; 
 // @import "./components/dropdown";
 // @import "./components/parrallax";
 // @import "./components/table";
 // @import "./components/carousel";
-@import "./components/title";
-@import "./components/cards";
-@import "./components/floatingcard";
-@import "./components/redesbotones";
-@import "./components/scroll";
-@import "./components/slidercard";
+//@import "./components/title";
+//@import "./components/cards";
+//@import "./components/floatingcard";
+//@import "./components/redesbotones";
+//@import "./components/scroll";
+//@import "./components/slidercard";
 
 /*LAYOUT*/
-@import "./layout/header";
+//@import "./layout/header";
 @import "./layout/footer";
-@import "./layout/navoculto";
+//@import "./layout/navoculto";
 // @import "./layout/forms";
 // @import "./layout/navigation";
 // @import "./layout/grid";
@@ -30,8 +35,8 @@
 
 /*PAGES*/
 @import "./pages/index";
-@import "./pages/section1"; //info
-@import "./pages/section2"; //desarrollo
-@import "./pages/section3"; //marketing
-@import "./pages/section4"; //diseño
-@import "./pages/section5"; //contacto
+//@import "./pages/section1"; //info
+//@import "./pages/section2"; //desarrollo
+//@import "./pages/section3"; //marketing
+//@import "./pages/section4"; //diseño
+//@import "./pages/section5"; //contacto

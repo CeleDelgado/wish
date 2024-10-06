@@ -1,0 +1,76 @@
+//***********INDEX: vista mobile***************
+
+.container__golden {
+    background-image: url(../../assets/img/gold/image.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+
+    &--1 {
+        h2 {
+            font-weight: bold;
+            font-size: 50px;
+            //background: rgb(255, 117, 211);
+            color: #fff;
+            font-family: "Shadows Into Light", cursive;
+            font-style: normal;
+        }
+
+        padding: 5%;
+        //background-color: #ffd6fe;
+        border-radius: 2%;
+        height: 105%;
+        padding: 1%;
+
+        &--box {
+            background: #fcec99;
+            //height: 20%;
+            //width: 30%;
+            padding: 5%;
+            border: 2px solid #c9bd7f;
+            border-radius: 3%;
+            margin: 1%;
+
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Shadows Into Light", cursive;
+                font-style: normal;
+                color: black;
+            }
+
+            p {
+                color: black;
+            }
+
+            //agregar animacion
+        }
+    }
+}
+
+/*****Vista Tablet*****/
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@include tablet {}
+
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@include desktop {
+    .container__golden {
+        &--1 {
+            &--box {
+                width: 48%;
+                padding: 5%;
+                float: left;
+            }
+        }
+    }
+}
