@@ -1,12 +1,9 @@
 //***********INDEX: vista mobile***************
 
 .container__contacto {
-    //background: rgb(255, 250, 246);
-    background: linear-gradient(126deg,
-            rgba(255, 250, 246, 1) 0%,
-            rgba(255, 239, 225, 1) 38%,
-            rgba(255, 238, 218, 1) 62%,
-            rgba(254, 251, 247, 1) 100%);
+    background-image: url(../../assets/img/contacto/hojass.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10%;
 
     &--1 {
@@ -43,16 +40,16 @@
                 font-weight: bold;
                 font-family: "Shadows Into Light", cursive;
                 font-style: normal;
-                color: black;
+                color: white;
             }
 
             p {
-                color: black;
+                color: white;
                 text-align: justify;
             }
         }
         &--boton {
-            padding-left: 35%;
+            padding-left: 10%;
             button {
                 --c: #fff;
             /* text color */
@@ -102,11 +99,16 @@
 
 @include tablet {}
 
-/*****Vista mobile*****/
+/*****Vista destop*****/
 @mixin desktop {
     @media (min-width: 1200px) {
         @content;
     }
 }
 
-@include desktop {}
+@include desktop {
+
+    .container__contacto--1--boton {
+        padding-left: 35%;
+    }
+}
