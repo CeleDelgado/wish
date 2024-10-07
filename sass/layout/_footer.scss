@@ -1,7 +1,7 @@
 //***********INDEX: vista mobile***************
 
 .container__social--1 {
-    color: rgba(255, 117, 211, 1);
+    //color: rgba(255, 117, 211, 1);
     font-size: 30px;
     //display: flex;
     //align-items: center;
@@ -12,10 +12,10 @@
     //margin: 1rem 10rem 3rem 10rem;
     list-style: none;
 
-    .fa-facebook a:active i {
+    .face:active i {
         color: aqua;
     }
-    .fa-instagram a:active i {
+    .insta:active i {
         color: rgb(255, 0, 255);
     }
 }

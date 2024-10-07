@@ -11923,15 +11923,28 @@ template {
   }
 }
 /*LAYOUT*/
+.container__header a:active i {
+  color: rgb(255, 194, 255);
+}
+.container__header--title {
+  color: aliceblue;
+}
+
+/*****Vista Tablet*****/
+@media (min-width: 768px) {
+  .container__header a:hover i {
+    color: rgb(255, 194, 255);
+  }
+}
+/*****Vista mobile*****/
 .container__social--1 {
-  color: rgb(255, 117, 211);
   font-size: 30px;
   list-style: none;
 }
-.container__social--1 .fa-facebook a:active i {
+.container__social--1 .face:active i {
   color: aqua;
 }
-.container__social--1 .fa-instagram a:active i {
+.container__social--1 .insta:active i {
   color: rgb(255, 0, 255);
 }
 

@@ -1,2 +1,38 @@
 //***********INDEX: vista mobile***************
 
+.container__header {
+    a:active i {
+        color: rgb(255, 194, 255);
+    }
+    &--title{
+        color: aliceblue;
+    }
+}
+
+/*****Vista Tablet*****/
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@include tablet {
+    .container__header {
+        a:hover i {
+            color: rgb(255, 194, 255);
+        }
+    }
+    
+
+}
+
+/*****Vista mobile*****/
+@mixin desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@include desktop {
+    
+}
