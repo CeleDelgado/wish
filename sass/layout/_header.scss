@@ -1,11 +1,15 @@
 //***********INDEX: vista mobile***************
 
 .container__header {
-    a:active i {
-        color: rgb(255, 194, 255);
+    ul {
+        li {
+            a {
+                text-decoration: none;
+            }
+        }
     }
-    &--title{
-        color: aliceblue;
+    li:active a {
+        color: rgb(255, 194, 255);
     }
 }
 
@@ -17,12 +21,6 @@
 }
 
 @include tablet {
-    .container__header {
-        a:hover i {
-            color: rgb(255, 194, 255);
-        }
-    }
-    
 
 }
 
@@ -34,5 +32,9 @@
 }
 
 @include desktop {
-    
+    .container__header {
+        li:hover a {
+            color: rgb(255, 194, 255);
+        }
+    }
 }
