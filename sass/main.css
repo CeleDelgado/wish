@@ -11606,6 +11606,28 @@ template {
   display: none;
 }
 
+.container__header--title img {
+  width: 388px;
+  height: 475px;
+  border-radius: 25px;
+}
+
+/*****Vista Tablet*****/
+@media (min-width: 768px) {
+  .container__header--title img {
+    width: 960px;
+    height: 540px;
+    border-radius: 25px;
+  }
+}
+/*****Vista mobile*****/
+@media (min-width: 1200px) {
+  .container__header--title img {
+    width: 1024px;
+    height: 640px;
+    border-radius: 25px;
+  }
+}
 .container__servicios {
   background-image: url(../../assets/img/servicios/anar.jpg);
   background-repeat: no-repeat;
